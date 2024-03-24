@@ -38,7 +38,7 @@ function addEntry () {
                 return null;
             }
 
-
+            calories += Number(currVal);
         }
 }
     addEntryButton.addEventListener("click", addEntry);
