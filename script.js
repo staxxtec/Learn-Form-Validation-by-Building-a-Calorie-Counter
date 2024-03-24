@@ -40,5 +40,6 @@ function addEntry () {
 
             calories += Number(currVal);
         }
+        return calories(value);
 }
     addEntryButton.addEventListener("click", addEntry);
