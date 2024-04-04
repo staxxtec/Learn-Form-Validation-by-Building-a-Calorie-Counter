@@ -79,6 +79,7 @@ function getCaloriesFromInputs(list) {
       }
       budgetNumberInput.value = '';
       output.innerText = '';
+      output.classList.add('hide');
 
   }
   
